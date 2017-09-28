@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">My favorite bands</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://i.scdn.co/image/1685533969d5b68cbc630f991e873bd6467f1814" alt="Sandwich" style="width:100%">
+      <h3>Linkin Park</h3>
+      <p>Favorite songs: In the end, Numb, One more light, Breaking the habbit</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://a3-images.myspacecdn.com/images03/24/da7789b5d57b4b848802172d17288095/600x600.jpg" alt="Steak" style="width:100%">
+      <h3>Panic! at the Disco</h3>
+      <p>Favorite songs: Nine in the afternoon, Northern Downpour, I write sins not tragedies, Always</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://direct.rhapsody.com/imageserver/images/Alb.202627996/600x600.jpg" alt="Cherries" style="width:100%">
+      <h3>Simple Plan</h3>
+      <p>Favorite songs: Perfect, Summer Paradise, Jet lag, Gone too soon </p>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="http://images.genius.com/380cacf34a974fcf6ff00e0899b9f48b.427x427x1.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Paramore</h3>
+      <p>Favorite songs: Last Hope, Still into you, Misery Business, Hard times</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="http://www2.sunysuffolk.edu/prentil/webnastics2015/michael-jocelyn_my-final-site/atl.png" alt="Popsicle" style="width:100%">
+      <h3>All time low</h3>
+      <p>Favorite songs: Remembering Sunday, Missing you, Daydream away, Something's gotta give</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://pbs.twimg.com/profile_images/875567408873734146/wlxLuX1P.jpg" alt="Salmon" style="width:100%">
+      <h3>Nickelback</h3>
+      <p>Favorite songs: Photograph, Savin' me, Rockstar, Burn it to the ground</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZGI0MWI2OTYtZTZiMC00OThhLWI4MjUtMGFjMTU2N2Q1NDNkL2ltYWdlXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg" alt="Sandwich" style="width:100%">
+      <h3>Fall out boy</h3>
+      <p>Favorite songs: Save Rock and Roll, Sugar we're goin down, Young Volcanoes, Jetpack Blues</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://cps-static.rovicorp.com/3/JPG_400/MI0003/885/MI0003885396.jpg?partner=allrovi.com" alt="Croissant" style="width:100%">
+      <h3>AC/DC</h3>
+      <p>Favorite Songs: Shoot to thrill, Thunderstruck, Highway to hell, Back in Black</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    
+      
+    
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About me</h3><br>
+    <img src="https://scontent.fmnl5-1.fna.fbcdn.net/v/t1.0-9/12208711_768351919943835_2104915253706744841_n.jpg?oh=4c66577ac404b954fec5acb0f6a7c044&oe=5A47F66A" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Joshua!</b></h4>
+      <h6><i>A man with intense passion for music.</i></h6>
+      <p>I am joshua and this is a webpage i created to share my favorite bands to listen to! I want to share my love for music and especially for the bands above that i included. These are my personal favorites. So, i hope you guys will check it out!</p>
+    </div>
+  </div>
+  <hr>
+  
+  
+  
+ 
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
